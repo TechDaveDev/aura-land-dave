@@ -12,10 +12,10 @@ export const Hero = () => {
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         <div className="text-center lg:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-text-primary tracking-tighter">
-            Eleva tu productividad con <span className="text-action-button-blue">Inteligencia Artificial</span>
+            Boost your productivity with <span className="text-action-button-blue">AI</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-text-secondary max-w-xl mx-auto lg:mx-0">
-            Nuestra app integra IA de vanguardia para automatizar tus tareas, optimizar tu tiempo y potenciar tus resultados. Descubre una nueva forma de trabajar.
+            Our app integrates cutting-edge AI to automate your tasks, optimize your time, and boost your results. Discover a new way of working.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <StoreButton
@@ -36,18 +36,18 @@ export const Hero = () => {
               <img className="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="https://placehold.co/40x40/FFD54F/1A237E?text=C" alt="User C" />
             </div>
             <p className="mt-2 text-sm text-text-secondary">
-              <span className="font-semibold text-text-primary">Más de 100,000+ usuarios</span> ya confían en nosotros.
+              <span className="font-semibold text-text-primary">More than 100,000+ users</span> already trust us.
             </p>
           </div>
         </div>
 
         {/* Columna de la imagen */}
         <div className="relative flex items-center justify-center lg:h-full">
-          <div className="absolute -top-10 -left-10 w-48 h-48 bg-accent-sand/50 rounded-full blur-2xl"></div>
-          <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-action-button-blue/30 rounded-full blur-2xl"></div>
+          <div className="absolute -top-10 left-0 w-48 h-48 bg-accent-sand/50 rounded-full blur-2xl"></div>
+          <div className="absolute -bottom-10 right-0 w-48 h-48 bg-action-button-blue/30 rounded-full blur-2xl"></div>
 
-          <div className="relative flex items-center justify-center p-4 sm:p-6 bg-white/60 backdrop-blur-md border border-slate-200/80 rounded-3xl shadow-2xl shadow-slate-200/60 h-[450px] w-full max-w-sm">
-            <p className="text-text-secondary font-medium">[Phone Mockup Placeholder]</p>
+          <div className="relative flex items-center justify-center p-4 sm:p-6 h-[450px] w-full max-w-sm">
+            <img src="/phone-mockup.png" alt="phone-mockup" className="scale-[2.4]" />
           </div>
         </div>
       </div>

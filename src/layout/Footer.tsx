@@ -9,7 +9,7 @@ export const Footer = () => {
           <div className="lg:col-span-4">
             <h3 className="text-2xl font-bold text-brand-blue mb-2">Aura</h3>
             <p className="text-text-secondary max-w-sm">
-              Potenciando equipos con inteligencia artificial para alcanzar nuevos niveles de productividad.
+              Empowering teams with artificial intelligence to achieve new levels of productivity.
             </p>
             <form className="mt-6">
               <label htmlFor="email-address" className="sr-only">Email address</label>
@@ -20,13 +20,13 @@ export const Footer = () => {
                   autoComplete="email"
                   required
                   className="w-full min-w-0 appearance-none rounded-md border border-gray-300 bg-white px-4 py-2 text-base text-text-primary placeholder-gray-500 shadow-sm focus:border-action-button-blue focus:outline-none focus:ring-1 focus:ring-action-button-blue"
-                  placeholder="Tu correo electrónico"
+                  placeholder="Your email"
                 />
                 <button
                   type="submit"
                   className="flex-shrink-0 rounded-md bg-action-button-blue px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-action-button-blue focus:ring-offset-2"
                 >
-                  Suscribirse
+                  Subscribe
                 </button>
               </div>
             </form>
@@ -34,7 +34,7 @@ export const Footer = () => {
 
           <div className="lg:col-span-6 grid grid-cols-2 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="font-semibold text-text-primary mb-4">Producto</h4>
+              <h4 className="font-semibold text-text-primary mb-4">Product</h4>
               <ul className="space-y-3">
                 <li><a href="#features" className="text-text-secondary hover:text-text-primary transition-colors">Features</a></li>
                 <li><a href="/pricing" className="text-text-secondary hover:text-text-primary transition-colors">Pricing</a></li>
@@ -43,7 +43,7 @@ export const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-text-primary mb-4">Compañía</h4>
+              <h4 className="font-semibold text-text-primary mb-4">Company</h4>
               <ul className="space-y-3">
                 <li><a href="#" className="text-text-secondary hover:text-text-primary transition-colors">About Us</a></li>
                 <li><a href="#" className="text-text-secondary hover:text-text-primary transition-colors">Careers</a></li>
@@ -61,18 +61,19 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-between py-6 border-t border-gray-300">
+        <div className="flex flex-col sm:flex-row sm:gap-4 items-center justify-between py-6 border-t border-gray-300">
           <p className="text-sm text-text-secondary">
-            &copy; {new Date().getFullYear()} Aura. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Aura. All rights reserved.
           </p>
           <div className="flex space-x-5 mt-4 sm:mt-0">
             <a href="#" className="text-gray-400 hover:text-brand-blue transition-colors"><Twitter className="h-5 w-5" /></a>
             <a href="#" className="text-gray-400 hover:text-brand-blue transition-colors"><Github className="h-5 w-5" /></a>
             <a href="#" className="text-gray-400 hover:text-brand-blue transition-colors"><Linkedin className="h-5 w-5" /></a>
           </div>
-          <p className="text-sm text-text-secondary mt-8">Esta es una página de demostración con fines ilustrativos y no representa un producto o servicio real.</p>
+          <p className="text-sm text-text-secondary mt-8 sm:mt-0 sm:text-right">This is a demo page for illustrative purposes and does not represent an actual product or service.</p>
         </div>
       </div>
     </footer>
   )
 }
+// <p className="text-sm text-text-secondary mt-8 sm:mt-0 sm:text-right">Esta es una página de demostración con fines ilustrativos y no representa un producto o servicio real.</p>

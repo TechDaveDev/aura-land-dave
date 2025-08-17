@@ -3,30 +3,30 @@ import { PricingCard } from "@/components/ui/PricingCard"
 
 export default function PricingPage() {
   return (
-    <main>
+    <main className="flex flex-col gap-8 font-roboto row-start-2 items-center">
       <Section className="text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-text-primary">Planes para cada necesidad</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-text-primary">Plans for every need</h1>
         <p className="mt-4 text-lg md:text-xl text-text-secondary max-w-2xl mx-auto">
-          Elige el plan que mejor se adapte a ti. Todos los planes incluyen una prueba gratuita de 14 días.
+          Choose the plan that best suits you. All plans include a 14-day free trial.
         </p>
       </Section>
       <Section className="!pt-0">
         <div className="grid lg:grid-cols-3 gap-8 items-center">
           <PricingCard
-            planName="Básico"
+            planName="Basic"
             price="10"
-            features={["Característica 1", "Característica 2", "Característica 3", "Soporte Básico"]}
+            features={["Feature 1", "Feature 2", "Feature 3", "Basic Support"]}
           />
           <PricingCard
             planName="Pro"
             price="25"
-            features={["Todo en Básico", "Característica 4", "Característica 5", "Analíticas Avanzadas", "Soporte Prioritario"]}
+            features={["Everything Basic", "Feature 4", "Feature 5", "Advanced Analytics", "Priority Support"]}
             isFeatured={true}
           />
           <PricingCard
-            planName="Empresarial"
+            planName="Business"
             price="50"
-            features={["Todo en Pro", "Característica 6", "Integraciones SSO", "Manager Dedicado", "SLA Personalizado"]}
+            features={["Everything Pro", "Feature 6", "SSO Integrations", "Dedicated Manager", "Customized SLA"]}
           />
         </div>
       </Section>

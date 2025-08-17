@@ -8,21 +8,21 @@ export const FAQ = () => {
 
         <div className="lg:col-span-1">
           <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tighter">
-            Respuestas a tus dudas
+            Answers to your questions
           </h2>
           <p className="mt-4 text-lg text-text-secondary">
-            Hemos recopilado las preguntas más comunes para ayudarte a empezar lo más rápido posible.
+            We&rsquo;ve compiled the most common questions to help you get started as quickly as possible.
           </p>
           <div className="mt-8 p-6 bg-background-secondary rounded-2xl border border-slate-200/80">
-            <h3 className="font-bold text-text-primary">¿No encuentras tu respuesta?</h3>
+            <h3 className="font-bold text-text-primary">Can&rsquo;t find your answer?</h3>
             <p className="mt-2 text-sm text-text-secondary">
-              Nuestro equipo de soporte está listo para ayudarte.
+              Our support team is ready to help you.
             </p>
             <a
               href="/contact"
               className="mt-4 inline-block text-sm font-semibold text-action-button-blue hover:underline"
             >
-              Contactar con soporte &rarr;
+              Contact support &rarr;
             </a>
           </div>
         </div>
@@ -30,20 +30,20 @@ export const FAQ = () => {
         <div className="lg:col-span-2">
           <dl>
             <FAQCard
-              question="¿Qué tan difícil es la integración inicial?"
-              answer="Nuestra plataforma está diseñada para una integración rápida y sencilla. La mayoría de nuestros clientes están operativos en menos de una hora. Ofrecemos guías detalladas y SDKs para las plataformas más populares."
+              question="How difficult is initial integration?"
+              answer="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, ducimus, veniam voluptatem commodi vel odit maiores iste soluta mollitia aperiam dolorem, similique dolor ratione dicta."
             />
             <FAQCard
-              question="¿Mis datos están seguros en la plataforma?"
-              answer="Absolutamente. La seguridad es nuestra máxima prioridad. Utilizamos encriptación de extremo a extremo (AES-256), cumplimos con normativas como GDPR y SOC 2, y realizamos auditorías de seguridad periódicas."
+              question="Is my data secure on the platform?"
+              answer="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, ducimus, veniam voluptatem commodi vel odit maiores iste soluta mollitia aperiam dolorem, similique dolor ratione dicta."
             />
             <FAQCard
-              question="¿Puedo cancelar mi suscripción en cualquier momento?"
-              answer="Sí, puedes cancelar tu plan en cualquier momento desde el panel de tu cuenta, sin preguntas. Seguirás teniendo acceso a las funciones de tu plan hasta el final del ciclo de facturación."
+              question="Can I cancel my subscription at any time?"
+              answer="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, ducimus, veniam voluptatem commodi vel odit maiores iste soluta mollitia aperiam dolorem, similique dolor ratione dicta."
             />
             <FAQCard
-              question="¿Ofrecen planes personalizados para grandes empresas?"
-              answer="Sí, para equipos grandes o con necesidades específicas, ofrecemos planes 'Enterprise' con características avanzadas, soporte dedicado y acuerdos de nivel de servicio (SLA) personalizados. Contáctanos para más detalles."
+              question="Do you offer customized plans for large companies?"
+              answer="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, ducimus, veniam voluptatem commodi vel odit maiores iste soluta mollitia aperiam dolorem, similique dolor ratione dicta."
             />
           </dl>
         </div>

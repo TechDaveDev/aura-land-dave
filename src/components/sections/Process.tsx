@@ -15,10 +15,10 @@ export const Process = () => {
     <Section className="bg-white">
       <div className="text-center max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tighter">
-          Empieza en solo 4 simples pasos
+          Get started in just 4 simple steps
         </h2>
         <p className="mt-4 text-lg text-text-secondary">
-          Hemos diseñado un flujo de trabajo intuitivo para que puedas aprovechar el poder de nuestra IA sin complicaciones.
+          We&rsquo;ve designed an intuitive workflow so you can seamlessly harness the power of our AI.
         </p>
       </div>
 
@@ -40,9 +40,9 @@ export const Process = () => {
             <ProcessCard
               className="mt-[-2.5rem] pt-16"
               icon={<Step1Icon className="w-8 h-8" />}
-              title="Crea tu Cuenta"
+              title="Create your account"
             >
-              Regístrate en segundos y obtén acceso inmediato a la plataforma.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, animi.
             </ProcessCard>
           </div>
 
@@ -53,9 +53,9 @@ export const Process = () => {
             <ProcessCard
               className="mt-[-2.5rem] pt-16"
               icon={<Step2Icon className="w-8 h-8" />}
-              title="Conecta tus Datos"
+              title="Connect your data"
             >
-              Integra tus fuentes de información de forma segura con nuestras APIs.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, animi.
             </ProcessCard>
           </div>
 
@@ -66,9 +66,9 @@ export const Process = () => {
             <ProcessCard
               className="mt-[-2.5rem] pt-16"
               icon={<Step3Icon className="w-8 h-8" />}
-              title="Define tus Objetivos"
+              title="Define your goals"
             >
-              Indícale a la IA qué es lo que quieres lograr o automatizar.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, animi.
             </ProcessCard>
           </div>
 
@@ -79,9 +79,9 @@ export const Process = () => {
             <ProcessCard
               className="mt-[-2.5rem] pt-16"
               icon={<Step4Icon className="w-8 h-8" />}
-              title="Observa la Magia"
+              title="Observe the Magic"
             >
-              Relájate y mira cómo nuestra IA trabaja para ti, entregando resultados.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, animi.
             </ProcessCard>
           </div>
         </div>

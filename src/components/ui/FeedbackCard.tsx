@@ -21,8 +21,8 @@ export const FeedbackCard = ({ isFeatured = false, quote, author, position, avat
     <div className={`relative p-8 rounded-2xl ${isFeatured ? 'bg-brand-blue text-white' : 'bg-background-secondary'}`}>
       <div className={`absolute top-4 right-4 text-6xl opacity-10 ${isFeatured ? 'text-white' : 'text-text-primary'}`}>
         <svg width="60" height="47" viewBox="0 0 60 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M59.5 24C59.5 36.9787 49.2287 47 36.5 47C23.7713 47 13.5 36.9787 13.5 24C13.5 11.0213 23.7713 1 36.5 1C49.2287 1 59.5 11.0213 59.5 24Z" stroke="currentColor" stroke-opacity="0.5" />
-          <path d="M23 24C23 30.0751 18.0751 35 12 35C5.92487 35 1 30.0751 1 24C1 17.9249 5.92487 13 12 13C18.0751 13 23 17.9249 23 24Z" stroke="currentColor" stroke-opacity="0.5" />
+          <path d="M59.5 24C59.5 36.9787 49.2287 47 36.5 47C23.7713 47 13.5 36.9787 13.5 24C13.5 11.0213 23.7713 1 36.5 1C49.2287 1 59.5 11.0213 59.5 24Z" stroke="currentColor" />
+          <path d="M23 24C23 30.0751 18.0751 35 12 35C5.92487 35 1 30.0751 1 24C1 17.9249 5.92487 13 12 13C18.0751 13 23 17.9249 23 24Z" stroke="currentColor" />
         </svg>
       </div>
       <div className="relative">

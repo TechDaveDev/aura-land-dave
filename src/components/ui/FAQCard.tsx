@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from "react";
-
 import { MinusIcon, PlusIcon } from "../Icons";
 
 interface FAQCardProps {
@@ -10,7 +9,6 @@ interface FAQCardProps {
 }
 
 export const FAQCard = ({ question, answer }: FAQCardProps) => {
-
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -32,12 +30,18 @@ export const FAQCard = ({ question, answer }: FAQCardProps) => {
           </span>
         </button>
       </dt>
+
       <dd
         id={`faq-${question.replace(/\s+/g, '-')}`}
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-screen mt-4' : 'max-h-0'}`}
+        className={`grid overflow-hidden transition-[grid-template-rows] duration-500 ease-in-out ${isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
+          }`}
       >
-        <p className="text-base text-text-secondary">{answer}</p>
+        <div className="min-h-0">
+          <p className="text-base text-text-secondary pt-4">
+            {answer}
+          </p>
+        </div>
       </dd>
     </div>
-  )
-}
+  );
+};

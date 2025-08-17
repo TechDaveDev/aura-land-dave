@@ -16,17 +16,17 @@ export const CTA = () => {
 
         <div className="relative z-10">
           <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tighter">
-            Transforma tu flujo de trabajo hoy
+            Transform your workflow today
           </h2>
           <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
-            Únete a miles de equipos que ya están construyendo el futuro. No se requiere tarjeta de crédito para empezar.
+            Join thousands of teams already building the future. No credit card required to get started.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
             <a
               href="/pricing"
               className="bg-accent-sand text-brand-blue px-8 py-3.5 rounded-full font-bold text-lg hover:bg-yellow-300 transition-colors shadow-lg w-full sm:w-auto"
             >
-              Empezar prueba gratuita
+              Start free trial
             </a>
           </div>
           <div className="mt-6 flex justify-center items-center gap-4">

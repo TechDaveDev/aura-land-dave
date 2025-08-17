@@ -13,7 +13,11 @@ export const StoreButton = ({ platform, icon, className = '' }: StoreButtonProps
       <div className="text-white w-8 h-8">{icon}</div>
       <div>
         <p className="text-xs text-slate-300 group-hover:text-white transition-colors">
-          Descargar en
+          {
+            platform === 'App Store'
+              ? 'Download on the'
+              : 'GET IN ON'
+          }
         </p>
         <p className="text-sm font-semibold text-white leading-tight">
           {platform}
